@@ -1,0 +1,37 @@
+body,ul {   /*задаeт стиль и для боди и для входящего ul*/
+    padding: 0;
+    margin:0;}
+li {
+    list-style:none;
+}    
+#content {
+    max-width: 1000px; /*может быть меньше но не большо,для адаптации контента на екране под размер*/
+    margin:auto  /*ширина авто*/
+}
+header {  /*задаем стиль для хедер,ид нет так как один только хедер*/
+    display:flex;  /*выравниваем елементы контейнера по горизонтали*/
+    justify-content:space-between;
+    flex-wrap: wrap; /*для реализации перестройки содержимого при уменьшении экрана,смещение друг под друга*/
+   align-items: center;
+    margin-top: 15px;
+    background:rgb(103, 103, 110) 
+}
+header img {  /*размеры картинки*/
+    max-width:300px;
+    max-height:300px;
+}
+header ul {
+    display:flex;
+    flex-wrap: wrap;
+}
+header ul a {
+    padding:1px 15px;
+    display: block;
+    background: rgb(44, 43, 43);
+    margin: 5px;
+    color:#fff;  
+    text-decoration: none; /*убераем подчеркивание текста*/
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight:bold; 
+}
