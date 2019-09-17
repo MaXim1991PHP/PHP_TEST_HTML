@@ -14,7 +14,7 @@ header {  /*задаем стиль для хедер,ид нет так как 
     flex-wrap: wrap; /*для реализации перестройки содержимого при уменьшении экрана,смещение друг под друга*/
    align-items: center;
     margin-top: 15px;
-    background:rgb(103, 103, 110) 
+    background:rgba(133, 133, 136, 0.63) 
 }
 header img {  /*размеры картинки*/
     max-width:300px;
